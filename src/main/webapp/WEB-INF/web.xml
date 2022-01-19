@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>ListadoMatriculacionesControler</servlet-name>
+		<display-name>ListadoMatriculacionesControler</display-name>
+		<description></description>
+		<servlet-class>com.rgg.colegio.controladroes.matriculaciones.ListadoMatriculacionesControler</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FormularioBorrarMatriculacionesController</servlet-name>
+		<display-name>FormularioBorrarMatriculacionesController</display-name>
+		<description></description>
+		<servlet-class>com.rgg.colegio.controladores.matriculaciones.FormularioBorrarMatriculacionesController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BorrarMatriculacionesController</servlet-name>
+		<display-name>BorrarMatriculacionesController</display-name>
+		<description></description>
+		<servlet-class>com.rgg.colegio.controladores.matriculaciones.BorrarMatriculacionesController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListadoMatriculacionesControler</servlet-name>
+		<url-pattern>/ListadoMatriculacionesControler</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FormularioBorrarMatriculacionesController</servlet-name>
+		<url-pattern>/FormularioBorrarMatriculacionesController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BorrarMatriculacionesController</servlet-name>
+		<url-pattern>/BorrarMatriculacionesController</url-pattern>
+	</servlet-mapping>
+</web-app>
